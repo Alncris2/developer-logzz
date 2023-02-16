@@ -1,3 +1,5 @@
+**/includes/config.php 
+
 .well-known/*
 uploads/*
 images/*
@@ -5,3 +7,5 @@ images/*
 # NÃO ENVIAR ARQUIVO LOG
 *.log
 *.zip
+
+
