@@ -1,0 +1,4 @@
+[20-Dec-2021 10:48:44 America/Sao_Paulo] PHP Notice:  Trying to get property 'TOKEN' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/monetizze/monetizze_functions.php on line 21
+[20-Dec-2021 10:49:01 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$TOKEN in /home/dropexpr/dashboard.dropexpress.com.br/bling/monetizze/monetizze_functions.php on line 21
+[20-Dec-2021 11:17:51 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$TOKEN in /home/dropexpr/dashboard.dropexpress.com.br/bling/monetizze/monetizze_functions.php on line 21
+[20-Dec-2021 11:18:13 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$TOKEN in /home/dropexpr/dashboard.dropexpress.com.br/bling/monetizze/monetizze_functions.php on line 21

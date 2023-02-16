@@ -1,0 +1,7 @@
+.well-known/*
+uploads/*
+images/*
+
+# NÃO ENVIAR ARQUIVO LOG
+*.log
+*.zip

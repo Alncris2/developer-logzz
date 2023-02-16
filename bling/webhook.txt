@@ -1,0 +1,3960 @@
+2022-01-13 13:34:40 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:35:38 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:36:12 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:37:59 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:40:56 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:42:09 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:42:38 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:43:15 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:45:04 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:49:30 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:50:05 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:50:21 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:50:40 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:53:40 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:53:54 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:54:35 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:54:56 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:55:15 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:56:37 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 13:59:46 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:01:22 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:01:55 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:02:17 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:07:59 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:09:04 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:09:42 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:10:10 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:11:05 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:11:19 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:11:36 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:11:53 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:13:43 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+
+2022-01-13 14:15:42 - s:3204:"{
+	"retorno": {
+		"pedidos": [
+			{
+				"pedido": {
+					"desconto": "0,00",
+					"observacoes": "",
+					"observacaointerna": "338",
+					"data": "2022-01-13",
+					"numero": "552",
+					"numeroOrdemCompra": "",
+					"vendedor": "",
+					"valorfrete": "0.00",
+					"outrasdespesas": "0.00",
+					"totalprodutos": "105.00",
+					"totalvenda": "105.00",
+					"situacao": "Em aberto",
+					"tipoIntegracao": "Api",
+					"cliente": {
+						"id": "15600390633",
+						"nome": "Marcelo Maciel",
+						"cnpj": "01360150188",
+						"ie": null,
+						"rg": "",
+						"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+						"numero": "7",
+						"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+						"cidade": "Brasília",
+						"bairro": "Bairro Sobradinho",
+						"cep": "73105904",
+						"uf": " D",
+						"email": "",
+						"celular": "",
+						"fone": ""
+					},
+					"transporte": {
+						"enderecoEntrega": {
+							"nome": "Marcelo Maciel",
+							"endereco": "Rua Rodovia DF-150 Km 2, nº 7<br>Bairro Sobradinho<br>Cond Jardim Europa 2, Rua O (de ovo), Casa 7 -",
+							"numero": "7",
+							"complemento": "Cond Jardim Europa 2, Rua O (de ovo), Casa 7 - Grande Colorado",
+							"cidade": "Brasília",
+							"bairro": "Bairro Sobradinho",
+							"cep": "73.105-904",
+							"uf": "DF"
+						},
+						"volumes": [
+							{
+								"volume": {
+									"id": "14915937976",
+									"idServico": "11530036605",
+									"idOrigem": "15602749679",
+									"servico": "PAC CONTRATO AG",
+									"codigoServico": "03298",
+									"codigoRastreamento": "QD964088129BR",
+									"valorFretePrevisto": "18.27",
+									"remessa": null,
+									"dataSaida": "",
+									"prazoEntregaPrevisto": "",
+									"valorDeclarado": "0.00",
+									"avisoRecebimento": false,
+									"maoPropria": false,
+									"dimensoes": {
+										"peso": "0.000",
+										"altura": "0",
+										"largura": "0",
+										"comprimento": "0",
+										"diametro": "0"
+									},
+									"urlRastreamento": "www2.correios.com.br\/sistemas\/rastreamento?objetos=QD964088129BR"
+								}
+							}
+						],
+						"servico_correios": "PAC CONTRATO AG"
+					},
+					"itens": [
+						{
+							"item": {
+								"codigo": "7",
+								"descricao": "Cronograma Capilar Samy Assunção",
+								"quantidade": "1.0000",
+								"valorunidade": "105.0000000000",
+								"precocusto": null,
+								"descontoItem": "0.00",
+								"un": "",
+								"pesoBruto": "0.00000",
+								"largura": null,
+								"altura": null,
+								"profundidade": null,
+								"descricaoDetalhada": "",
+								"unidadeMedida": "cm",
+								"gtin": ""
+							}
+						}
+					],
+					"parcelas": [
+						{
+							"parcela": {
+								"idLancamento": "0",
+								"valor": "105.00",
+								"dataVencimento": "2021-12-17 00:00:00",
+								"obs": "",
+								"destino": "1",
+								"forma_pagamento": {
+									"id": "1076662",
+									"descricao": "Conta a receber\/pagar",
+									"codigoFiscal": "15"
+								}
+							}
+						}
+					],
+					"codigosRastreamento": {
+						"codigoRastreamento": "QD964088129BR"
+					}
+				}
+			}
+		]
+	}
+}";
+

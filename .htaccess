@@ -1,0 +1,258 @@
+RewriteEngine On
+
+#RewriteRule ^pagina-nao-encontrada?$ error404.php [NC,L]
+
+RewriteRule ^login/?$                                               index.php [NC,L]
+RewriteRule ^index-no-cript/?$                                      index-no-cript.php [NC,L]
+RewriteRule ^login-admin-user/?$                                    login-admin-into-user.php [NC,L] 
+RewriteRule ^esqueci-minha-senha/?$                                 views/subscribers/password.php [NC,L]
+#RewriteRule ^resetpassword/([a-z0-9-]+)/([a-z0-9-]+)/?$            views/subscribers/passwordintegracoes/usuarios-pendentes/ [NC,L]
+RewriteRule ^resetpassword/([a-z0-9-]+)/([a-z0-9-]+)/?$             views/subscribers/password.php?e=$1&m=$2 [NC,L]
+
+RewriteRule ^pedidos/lista-operador/?$                              views/orders/orders-list-operator.php [NC,L]
+RewriteRule ^pedidos/dashboard-operador/?$                          views/orders/orders-dashboard-operator.php [NC,L]
+RewriteRule ^pedidos/dashboard/logistic?$                           views/orders/orders-dashboard-logistic.php [NC,L]
+RewriteRule ^pedidos/?$                                             views/orders/orders-list.php [NC,L]
+RewriteRule ^pedidos/lista/?$                                       views/orders/orders-list.php [NC,L]
+RewriteRule ^pedidos/dashboard/?$                                   views/orders/orders-dashboard.php [NC,L]
+RewriteRule ^pedido/([a-z]+)/([0-9A-Z]+)/?$                         views/orders/edit-order.php?status=$1&pedido=$2 [NC,L]
+RewriteRule ^pedido-op/([a-z]+)/([0-9A-Z]+)/?$                      views/orders/edit-order-operator.php?status=$1&pedido=$2 [NC,L]
+
+RewriteRule ^pedidos/expedicao-local/?$                             views/orders/local-dispatch.php [NC,L]
+RewriteRule ^pedidos/expedicao-local-a/?$                           views/orders/local-dispatch.php [NC,L]
+RewriteRule ^pedidos/expedicao-local-t/?$                           views/orders/local-dispatch-termal.php [NC,L]
+  
+
+RewriteRule ^assinaturas/lista/                                     views/subscriptions/list.php [NC,L]
+RewriteRule ^assinaturas/dashboard/                                 views/subscriptions/dashboard.php [NC,L]
+
+RewriteRule ^meus-produtos/?$                                       views/products/products.php [NC,L]
+RewriteRule ^produtos/todos/?$                                      views/products/all-products.php [NC,L]
+RewriteRule ^produtos/todos/([0-9]+)/?$                             views/products/all-products.php?detalhe=$1 [NC,L]
+RewriteRule ^produto/afiliado/([A-Z]+)/?$                           views/products/affiliate.php?membership=$1 [NC,L]
+RewriteRule ^produto/([0-9]+)/?$                                    views/products/products.php?detalhe=$1 [NC,L]
+RewriteRule ^produto/([0-9]+)/excluir?$                             views/products/products.php?detalhe=$1 [NC,L]
+RewriteRule ^produto/novo/?$                                        views/products/add-product.php [NC,L]
+RewriteRule ^oferta/?$                                              views/products/sales.php [NC,L]
+RewriteRule ^cupom/?$                                               views/products/coupons.php [NC,L]
+
+RewriteRule ^testeinput/?$                                          views/products/testeinput.php [NC,L]
+
+
+RewriteRule ^indiqueganhe/?$                                        views/indicates/gift.php
+
+RewriteRule ^loja/?$                                                                    views/memberships/market.php [NC,L]
+RewriteRule ^loja/produto/([0-9]+)/?$                                                   views/memberships/market-details.php?detalhe=$1 [NC,L]
+RewriteRule ^loja/convite/([a-zA-Z]+)/?$                                                views/memberships/hidden-product-market-details.php?detalhe=$1 [NC,L]
+RewriteRule ^produtos/afiliacoes/?$                                                     views/memberships/all-memberships.php [NC,L]
+RewriteRule ^produtos/afiliacoes/([0-9A-Z]+)/oferta/([0-9]+)/([0-9A-Z]+)?$              views/memberships/sale-edit.php?membership=$1&product=$2&sale=$3 [NC,L]
+RewriteRule ^produtos/afiliacoes/([0-9A-Z]+)/redirect/([0-9]+)/([0-9A-Z]+)?$            views/memberships/redirect-edit.php?membership=$1&product=$2&page=$3 [NC,L]
+RewriteRule ^produtos/afiliacoes/([0-9A-Z]+)/([0-9]+)?$                                 views/memberships/hotlinks.php?membership=$1&product=$2 [NC,L]
+RewriteRule ^produtos/solicitacoes/?$                                                   views/memberships/membership-requests.php [NC,L]
+
+#RewriteRule ^pay/?$                                                views/checkout/membership-checkout.php [NC,L]
+RewriteRule ^confirma-pedido/([a-z0-9-]+)/?$                        order-confirmation.php?order=$1 [NC,L]
+RewriteRule ^reagendar-pedido/([a-z0-9-]+)/?$                       order-reagendar.php?order=$1 [NC,L]
+RewriteRule ^checkout/([a-z0-9-]+)/?$                               views/checkout/simple-checkout.php?url=$1 [NC,L]
+RewriteRule ^checkout/([a-z0-9-]+)/1clique/?$                       checkout-one-click.php?url_one_clique=$1 [NC,L]
+RewriteRule ^meu-pedido/([a-z0-9-]+)/?$                             order-sumary.php?order=$1 [NC,L]
+RewriteRule ^meus-pedidos/([a-z0-9-]+)/?$                           order-sumary-upsell.php?order=$1 [NC,L]
+RewriteRule ^upsell-purchase-check/(.*)/(.*)/?$                     upsell-purchase-check.php?order-id=$1&sale-id=$2 [NC,L]
+
+RewriteRule ^conquistas/?$                                          views/subscribers/conquest.php [NC,L] 
+RewriteRule ^usuarios/?$                                            views/subscribers/subscribers.php [NC,L]
+RewriteRule ^usuarios/estoques/?$                                   views/subscribers/shippments-list.php [NC,L]
+RewriteRule ^usuario/contrato/?$                                    views/subscribers/terms-of-use.php [NC,L]
+RewriteRule ^usuario/completar-cadastro/?$                          views/subscribers/complete-registration.php [NC,L]
+RewriteRule ^usuario/([a-zA-Z]+)/?$                                 views/subscribers/subscriber.php?user=$1 [NC,L]
+RewriteRule ^usuario/financeiro/([0-9]+)/([a-zA-Z]+)/?$             views/subscribers/subscriber-finance-admin.php?id=$1&code=$2 [NC,L]
+RewriteRule ^usuarios/novo/?$                                       views/subscribers/add-subscriber.php [NC,L]
+RewriteRule ^usuarios/saques/?$                                     views/subscribers/billings.php [NC,L]
+RewriteRule ^usuarios/saque/pendente/(.*)/?$                        views/subscribers/billing-details.php?billing=$1 [NC,L]
+RewriteRule ^usuarios/saque/liberado/(.*)/?$                        views/subscribers/billing-details.php?billing=$1 [NC,L]
+RewriteRule ^usuarios/contas-bancarias/?$                           views/subscribers/adm-account-list.php [NC,L]
+RewriteRule ^cadastrar/?$                                           views/subscribers/registration.php [NC,L]
+RewriteRule ^sair/?$                                                logout.php [NC,L]
+RewriteRule ^minha-conta/?$                                         account.php [NC,L]
+
+RewriteRule ^localidades/operacoes-locais/?$                        views/locations/local-operations.php [NC,L]
+RewriteRule ^localidades/meus-estoques/?$                           views/locations/inventories.php [NC,L]
+RewriteRule ^localidades/estoques-operacao/?$                       views/locations/operation-inventories.php [NC,L]
+RewriteRule ^localidades/informar-envio/?$                          views/locations/report-shipping.php [NC,L]
+RewriteRule ^localidades/envios-realizados/?$                       views/locations/my-shippings.php [NC,L]
+RewriteRule ^localidades/centros-de-distribuicao/?$                 views/locations/my-centers.php [NC,L]
+RewriteRule ^localidades/minha-operacao/?$                          views/locations/my-operation.php [NC,L]
+RewriteRule ^localidades/manusear-estoque/?$                        views/locations/inventories.php [NC,L] 
+
+RewriteRule ^integracoes/?$                                         views/integrations/index.php [NC,L]
+RewriteRule ^integracoes/nota-fiscal/?$                             views/integrations/tax-invoices.php [NC,L]
+RewriteRule ^integracoes/nota-fiscal/notazz/?$                      views/integrations/notazz.php [NC,L]
+RewriteRule ^integracoes/gateway-de-pagamento/?$                    views/integrations/payment-gateways.php [NC,L]
+RewriteRule ^integracoes/gateway-de-pagamento/mercado-pago/?$       views/integrations/mercado-pago.php [NC,L]
+RewriteRule ^integracoes/usuarios-pendentes/?$                      views/dispatch/users.php [NC,L]
+RewriteRule ^integracoes/expedicao/?$                               views/dispatch/dispatch.php [NC,L]
+RewriteRule ^integracoes/atendezap/?$                               views/integrations/atendezap.php [NC,L]
+
+RewriteRule ^integracoes/postback/?$                                views/integrations/external-postback.php [NC,L]
+RewriteRule ^integracoes/postback/monetizze/?$                      views/integrations/monetizze.php [NC,L]
+RewriteRule ^integracoes/postback/braip/?$                          views/integrations/braip.php [NC,L]
+
+RewriteRule ^integracoes/ajax/postback/braip/?$                     ajax/external-postback/braip.php [NC,L]
+RewriteRule ^integracoes/ajax/postback/braip-edit/?$                ajax/external-postback/braip-edit.php [NC,L]
+RewriteRule ^integracoes/ajax/postback/monetizze/?$                 ajax/external-postback/monetizze.php [NC,L]
+
+# ROTAS API
+RewriteRule ^api/v1/integrationTiny/?$                              ajax/new-tiny-integration.php [NC,L]
+RewriteRule ^api/v1/getProductsForSpecificUsers/?$                  ajax/getProductsForSpecificUsers.php [NC,L]
+RewriteRule ^api/v1/save-data-in-session/?$                         api/tiny/save-product-and-user.php [NC,L]
+RewriteRule ^api/v1/getProductsForSpecificUsers/?$                  ajax/get-products-for-specific-users.php [NC,L]
+RewriteRule ^api/v1/delete-solicitation-of-integration/?$           ajax/delete-integration.php [NC,L]
+RewriteRule ^api/v1/saveDataInSession/?$                            api/tiny/save-product-and-user.php [NC,L]
+RewriteRule ^api/v1/get-products-for-specific-users.php/?$          ajax/get-products-for-specific-users.php.php [NC,L]
+RewriteRule ^api/v1/webhooks/status-sale/?$                         api/tiny/webhooks/status-sale.php [NC,L]
+RewriteRule ^api/v1/webhooks/tracking/?$                            api/tiny/webhooks/tracking.php [NC,L]
+
+
+
+
+RewriteRule ^expedicao/tiny-sudeste/                                views/dispatch/sudeste-tiny.php [NC,L]
+RewriteRule ^expedicao/tiny-centro-oeste/                           views/dispatch/c-oeste-tiny.php [NC,L]
+
+RewriteRule ^integracoes/expedicao/?$                               views/dispatch/dispatch.php [NC,L]
+RewriteRule ^expedicao/bling-sul/                                   views/dispatch/south-bling.php [NC,L]   
+RewriteRule ^expedicao/bling-sudeste/                               views/dispatch/southeast-bling.php [NC,L]
+RewriteRule ^expedicao/bling-centro-oeste/                          views/dispatch/midwest-bling.php [NC,L]
+RewriteRule ^expedicao/bling-nordeste/                              views/dispatch/northeast-bling.php [NC,L]
+RewriteRule ^expedicao/bling-norte/                                 views/dispatch/north-bling.php [NC,L]
+
+RewriteRule ^postback/braip/([a-z0-9A-Z]+)/?$                       api/postback/postback-braip.php?url=$1 [NC,L]
+RewriteRule ^postback/monetizze/([a-z0-9A-Z]+)/?$                   api/postback/postback-monetizze.php?url=$1 [NC,L]
+
+RewriteRule ^sendmail/([a-z0-9-_]+)/([0-9]+)/?$                     includes/classes/SendMail.php?context=$1&userid=$2
+
+RewriteRule ^perfil/informacoes/?$                                  views/profile/my-informations2.php [NC,L]
+RewriteRule ^perfil/planos/?$                                       views/profile/plans.php [NC,L]
+RewriteRule ^perfil/financeiro/?$                                   views/profile/finances.php [NC,L]
+RewriteRule ^perfil/financeiro/detalhamento/([a-z0-9A-Z]+)/?$          views/profile/transaction-details.php?cod=$1 [NC,L]
+RewriteRule ^perfil/financeiro2/?$                                  views/profile/finances2.php [NC,L]
+RewriteRule ^perfil/financeiro-operador/?$                          views/profile/finances-operator.php [NC,L]
+RewriteRule ^perfil/contas-bancarias/?$                             views/profile/bank-accounts.php [NC,L]
+
+RewriteRule ^operadores/novo/?$                                     views/operators/add-operator.php [NC,L]
+RewriteRule ^operador/([a-zA-Z]+)/?$                                views/operators/edit-operator.php?user=$1 [NC,L]
+RewriteRule ^operadores/?$                                          views/operators/operators.php [NC,L]
+RewriteRule ^operacoes/nova/?$                                      views/operations/add-operation.php [NC,L]
+RewriteRule ^operacoes/([0-9]+)/?$                                  views/operations/edit-operation.php?operation=$1 [NC,L]
+RewriteRule ^operadores/repasses/?$                                 views/operators/transfers-list.php [NC,L]
+
+RewriteRule ^ajax/change-pay-method/?$                              ajax/change-pay-method.php [NC,L]
+RewriteRule ^ajax/change-plan/?$                                    ajax/change-plan.php [NC,L]
+
+RewriteRule ^ajuda/integracoes/([a-z]+)/?$                          views/help/integrations.php?context=$1 [NC,L]
+RewriteRule ^ajuda/integracao-braip/?$                              helpintegracao/braip.php [NC,L]
+RewriteRule ^ajuda/integracao-monetizze/?$                          helpintegracao/monetizze.php [NC,L]
+
+RewriteRule ^expedicao/tiny-sudeste/                                views/dispatch/sudeste-tiny.php [NC,L]
+RewriteRule ^expedicao/tiny-centro-oeste/                           views/dispatch/c-oeste-tiny.php [NC,L]
+
+RewriteRule ^integracoes/usuarios-pendentes/?$ views/dispatch/users.php [NC,L]
+
+
+RewriteRule ^update?$                      updateAll.php [NC,L]
+
+# ROTA PARA RODAR SCRIPT PARA ADIÇÃO DE CHECKOUT PADRÃO PARA TODAS AS OFERTAS ANTERIORES
+# ! NÃO MANTER ESSAS ROTAS EM PRODUÇÃO!!!  
+RewriteRule ^updateOferts?$                      updateOferts.php [NC,L]
+  
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php8_module>
+   php_flag display_errors Off
+   php_value max_execution_time -1
+   php_value max_input_time -1
+   php_value max_input_vars 100000
+   php_value memory_limit 256M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime -1
+   php_value upload_max_filesize 32M
+   php_flag zlib.output_compression On
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php81"
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time -1
+   php_value max_input_time -1
+   php_value max_input_vars 100000
+   php_value memory_limit 256M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime -1
+   php_value upload_max_filesize 32M
+   php_flag zlib.output_compression On
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php81"
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php8_module>
+   php_flag display_errors Off
+   php_value max_execution_time -1
+   php_value max_input_time -1
+   php_value max_input_vars 100000
+   php_value memory_limit 256M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 8640000
+   php_value upload_max_filesize 32M
+   php_flag zlib.output_compression On
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php81"
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time -1
+   php_value max_input_time -1
+   php_value max_input_vars 100000
+   php_value memory_limit 256M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 8640000
+   php_value upload_max_filesize 32M
+   php_flag zlib.output_compression On
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php81"
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php8_module>
+   php_flag display_errors Off
+   php_value max_execution_time -1
+   php_value max_input_time -1
+   php_value max_input_vars 100000
+   php_value memory_limit 256M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 8640000
+   php_value session.cookie_lifetime 8640000
+   php_value upload_max_filesize 32M
+   php_flag zlib.output_compression On
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php81"
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time -1
+   php_value max_input_time -1
+   php_value max_input_vars 100000
+   php_value memory_limit 256M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 8640000
+   php_value session.cookie_lifetime 8640000
+   php_value upload_max_filesize 32M
+   php_flag zlib.output_compression On
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php81"
+</IfModule>
+# END cPanel-generated php ini directives, do not edit

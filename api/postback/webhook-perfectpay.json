@@ -1,0 +1,91 @@
+{
+  "token"               : "7378fa24f96b38a3b1805d7a6887bc82",
+  "code"                : "PPCPMTB58MNF4E",
+  "sale_amount"         : 385,
+  "currency_enum"       : 1,
+  "coupon_code"         : null,
+  "installments"        : 12,
+  "installment_amount"  : null,
+  "shipping_type_enum"  : 1,
+  "shipping_amount"     : null,
+  "payment_method_enum" : 4,
+  "payment_type_enum"   : 1,
+  "billet_url"          : "",
+  "billet_number"       : null,
+  "billet_expiration"   : null,
+  "quantity"            : 5,
+  "sale_status_enum"    : 0,
+  "sale_status_detail"  : "checkout_saved",
+  "date_created"        : "2019-03-09 08:24:02",
+  "date_approved"       : null,
+  "product"             : {
+    "code"              : "PPPB3A07",
+    "name"              : "Herus Caps",
+    "external_reference": "42433",
+    "guarantee"         : 30
+  },
+  "plan"                : {
+    "code"    : "PPLQQ9Q9R",
+    "name"    : "Herus Caps | 3 potes + 2 potes gratis",
+    "quantity": 5
+  },
+  "plan_itens"          : [],
+  "customer"            : {
+    "customer_type_enum"   : 1,
+    "full_name"            : "USER EXAMPLE",
+    "email"                : "user_example2019@hotmail89254",
+    "identification_type"  : "CPF",
+    "identification_number": "57856874587",
+    "birthday"             : "2020-08-28",
+    "phone_area_code"      : "47",
+    "phone_number"         : "9965568558",
+    "street_name"          : "Rua Example Street",
+    "street_number"        : "54",
+    "district"             : "Example",
+    "complement"           : "",
+    "zip_code"             : "65875-564",
+    "city"                 : "Example City",
+    "state"                : "RJ",
+    "country"              : "BR"
+  },
+  "metadata"            : {
+    "src"         : null,
+    "utm_source"  : null,
+    "utm_medium"  : null,
+    "utm_campaign": null,
+    "utm_term"    : null,
+    "utm_content" : "Example+User-seq1-ba",
+    "utm_perfect" : null
+  },
+  "webhook_owner"       : "PPAKIOL",
+  "commission"          : [
+    {
+      "affiliation_code"     : "PPAJFTR",
+      "affiliation_type_enum": 5,
+      "name"                 : "USER EXAMPLE NAME",
+      "email"                : "user_example@gmail.com",
+      "identification_number": "07958658745",
+      "commission_amount"    : 0
+    },
+    {
+      "affiliation_code"     : "PPAGSDE",
+      "affiliation_type_enum": 1,
+      "name"                 : "User Affiliation Example",
+      "email"                : "affiliation_example@gmail.com",
+      "identification_number": "08745785448",
+      "commission_amount"    : 440.28
+    },
+    {
+      "name"                 : "PerfectPay",
+      "commission_amount"    : 53.72,
+      "affiliation_type_enum": 0
+    }
+  ],
+  "marketplaces":{  
+     "PPMPCJI1G1":{  
+        "name":"HubSmart",
+        "itens":-9.5,
+        "sale":-26
+     }
+  }
+}
