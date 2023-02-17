@@ -1,0 +1,13 @@
+RewriteEngine On
+
+RewriteRule ^pay/?$                                                 views/checkout/membership-checkout.php [NC,L]
+RewriteRule ^redirect/?$                                            views/checkout/save-info-and-redirect.php [NC,L]
+RewriteRule ^/?$                                                    https://logzz.com.br/
+
+#RewriteRule ^checkout/([a-z0-9-]+)/?$                              views/checkout/simple-checkout.php?url=$1 [NC,L]
+#RewriteRule ^checkout/([a-z0-9-]+)/1clique/?$                      views/checkout/checkout-one-click.php?url_one_clique=$1 [NC,L]
+RewriteRule ^pay/([a-z0-9-]+)/?$                                    views/checkout/simple-checkout.php?url=$1 [NC,L]
+RewriteRule ^pay/([a-z0-9-]+)/1clique/?$                            views/checkout/checkout-one-click.php?url_one_clique=$1 [NC,L]
+RewriteRule ^meu-pedido/([a-z0-9-]+)/?$                             order-sumary.php?order=$1 [NC,L]
+RewriteRule ^meus-pedidos/([a-z0-9-]+)/?$                           order-sumary-upsell.php?order=$1 [NC,L]
+RewriteRule ^upsell-purchase-check/(.*)/(.*)/?$                     upsell-purchase-check.php?order-id=$1&sale-id=$2 [NC,L]

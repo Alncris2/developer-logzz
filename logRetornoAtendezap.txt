@@ -1,0 +1,6 @@
+
+{"status":"reagendar","order_id":"21231","codigo_pedido":"1712S1071P9900","status_codigo":"1","data_reagendar":"28\/12\/2022"}
+{"status":"reagendar","order_id":"21279","codigo_pedido":"2312S1231P1415","status_codigo":"1","data_reagendar":"28\/12\/2022"}
+{"status":"reagendar","order_id":"21279","codigo_pedido":"2312S1231P1415","status_codigo":"1","data_reagendar":"28\/12\/2022"}
+{"status":"reagendar","order_id":"24764","codigo_pedido":"2512S1231P8093","status_codigo":"1","data_reagendar":"27\/12\/2022"}
+{"status":"cancelar","order_id":"24764","codigo_pedido":"2512S1231P8093","status_codigo":"4"}

@@ -1,0 +1,157 @@
+[02-Dec-2021 14:31:34 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[02-Dec-2021 14:31:51 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[02-Dec-2021 14:33:01 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[02-Dec-2021 14:33:01 America/Sao_Paulo] PHP Warning:  Use of undefined constant FETCH_COLUMN - assumed 'FETCH_COLUMN' (this will throw an Error in a future version of PHP) in /home/dropexpr/dashboard.dropexpress.com.br/bling/teste.php on line 52
+[02-Dec-2021 14:33:01 America/Sao_Paulo] PHP Warning:  PDOStatement::fetchAll() expects parameter 1 to be int, string given in /home/dropexpr/dashboard.dropexpress.com.br/bling/teste.php on line 52
+[02-Dec-2021 14:33:01 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/dropexpr/dashboard.dropexpress.com.br/bling/teste.php on line 54
+[02-Dec-2021 14:33:39 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[02-Dec-2021 14:33:47 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[02-Dec-2021 14:35:58 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[02-Dec-2021 14:35:58 America/Sao_Paulo] PHP Notice:  Undefined variable: stmt in /home/dropexpr/dashboard.dropexpress.com.br/bling/teste.php on line 51
+[02-Dec-2021 14:35:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/dropexpr/dashboard.dropexpress.com.br/bling/teste.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/dropexpr/dashboard.dropexpress.com.br/bling/teste.php on line 51
+[02-Dec-2021 14:36:15 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[03-Dec-2021 08:16:52 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 08:35:10 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 08:53:10 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 08:53:28 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 08:55:54 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 09:20:34 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 09:45:30 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 09:45:30 America/Sao_Paulo] PHP Warning:  rawurlencode() expects parameter 1 to be string, array given in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php on line 293
+[06-Dec-2021 09:45:31 America/Sao_Paulo] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://bling.com.br/Api/v2/produto/json/` resulted in a `400 Bad Request` response:
+{"retorno":{"erros":{"erro":{"cod":11,"msg":"Para a execucao desta funcao e necessario a passagem de mais parametros. Co (truncated...)
+ in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /ho in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[06-Dec-2021 09:46:56 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 09:47:31 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 10:08:47 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 10:09:51 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 10:10:18 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 10:13:48 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 10:13:57 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 10:15:02 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 10:16:24 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 10:22:57 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 10:22:57 America/Sao_Paulo] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://bling.com.br/Api/v2/produto/json/` resulted in a `403 Forbidden` response:
+{"retorno":{"erros":{"erro":{"cod":16,"msg":"Esta conta foi inativada, verifique a sua situacao para continuar utilizand (truncated...)
+ in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[06-Dec-2021 10:26:39 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 10:26:39 America/Sao_Paulo] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://bling.com.br/Api/v2/pedido/json/` resulted in a `403 Forbidden` response:
+{"retorno":{"erros":{"erro":{"cod":16,"msg":"Esta conta foi inativada, verifique a sua situacao para continuar utilizand (truncated...)
+ in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/ in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[06-Dec-2021 10:31:24 America/Sao_Paulo] PHP Notice:  Constant DB_CHARSET already defined in /home/dropexpr/dashboard.dropexpress.com.br/includes/config.php on line 22
+[06-Dec-2021 10:31:24 America/Sao_Paulo] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://bling.com.br/Api/v2/pedido/json/` resulted in a `403 Forbidden` response:
+{"retorno":{"erros":{"erro":{"cod":16,"msg":"Esta conta foi inativada, verifique a sua situacao para continuar utilizand (truncated...)
+ in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/ in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[10-Dec-2021 15:48:43 America/Sao_Paulo] PHP Notice:  Undefined variable: dados in /home/dropexpr/dashboard.dropexpress.com.br/bling/produtos.php on line 38
+[10-Dec-2021 15:48:43 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Bling::geraXml() must be of the type array, null given, called in /home/dropexpr/dashboard.dropexpress.com.br/bling/produtos.php on line 38 and defined in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php:255
+Stack trace:
+#0 /home/dropexpr/dashboard.dropexpress.com.br/bling/produtos.php(38): Bling->geraXml(NULL, '<?xml version="...')
+#1 {main}
+  thrown in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php on line 255
+[16-Dec-2021 16:32:27 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$produtos in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php on line 303
+[16-Dec-2021 16:49:37 America/Sao_Paulo] PHP Notice:  Undefined variable: retorno in /home/dropexpr/dashboard.dropexpress.com.br/bling/functions.php on line 126
+[16-Dec-2021 16:49:54 America/Sao_Paulo] PHP Notice:  Undefined variable: retorno in /home/dropexpr/dashboard.dropexpress.com.br/bling/functions.php on line 128
+[16-Dec-2021 16:50:08 America/Sao_Paulo] PHP Notice:  Undefined variable: retorno in /home/dropexpr/dashboard.dropexpress.com.br/bling/functions.php on line 128
+[16-Dec-2021 16:54:49 America/Sao_Paulo] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/dropexpr/dashboard.dropexpress.com.br/bling/functions.php on line 152
+[16-Dec-2021 16:54:49 America/Sao_Paulo] PHP Notice:  Trying to access array offset on value of type null in /home/dropexpr/dashboard.dropexpress.com.br/bling/functions.php on line 155
+[16-Dec-2021 16:54:49 America/Sao_Paulo] PHP Notice:  Trying to access array offset on value of type null in /home/dropexpr/dashboard.dropexpress.com.br/bling/functions.php on line 156
+[16-Dec-2021 17:18:23 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$produtos in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php on line 303
+[16-Dec-2021 17:20:52 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$produtos in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php on line 303
+[13-Jan-2022 08:29:07 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/dropexpr/dashboard.dropexpress.com.br/bling/functions.php on line 197
+[13-Jan-2022 08:29:08 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$produtos in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php on line 302
+[13-Jan-2022 09:49:02 America/Sao_Paulo] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/dropexpr/dashboard.dropexpress.com.br/bling/functions.php on line 166
+[13-Jan-2022 09:49:03 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$produtos in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php on line 302
+[13-Jan-2022 09:54:33 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$produtos in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php on line 302
+[13-Jan-2022 09:57:01 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$produtos in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php on line 302
+[13-Jan-2022 10:00:54 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$produtos in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php on line 302
+[13-Jan-2022 11:56:53 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$produtos in /home/dropexpr/dashboard.dropexpress.com.br/bling/vendor/guzzlehttp/guzzle/src/Bling/Bling.php on line 302
+[13-Jan-2022 13:34:40 America/Sao_Paulo] PHP Warning:  require_once(/home/dropexpr/dashboard.dropexpress.com.br/bling/../../includes/config.php): failed to open stream: No such file or directory in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 9
+[13-Jan-2022 13:34:40 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/home/dropexpr/dashboard.dropexpress.com.br/bling/../../includes/config.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 9
+[13-Jan-2022 13:35:38 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$observacaointerna in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 21
+[13-Jan-2022 13:35:38 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$codigosRastreamento in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 22
+[13-Jan-2022 13:35:38 America/Sao_Paulo] PHP Notice:  Trying to get property 'codigoRastreamento' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 22
+[13-Jan-2022 13:35:38 America/Sao_Paulo] PHP Fatal error:  Uncaught ErrorException: Pedido não encontrado! in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 28
+[13-Jan-2022 13:36:12 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$observacaointerna in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 21
+[13-Jan-2022 13:36:12 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$codigosRastreamento in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 22
+[13-Jan-2022 13:36:12 America/Sao_Paulo] PHP Notice:  Trying to get property 'codigoRastreamento' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 22
+[13-Jan-2022 13:36:12 America/Sao_Paulo] PHP Fatal error:  Uncaught ErrorException: Pedido não encontrado! in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 28
+[13-Jan-2022 13:37:59 America/Sao_Paulo] PHP Fatal error:  Uncaught ErrorException: Pedido não encontrado! in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 28
+[13-Jan-2022 13:42:38 America/Sao_Paulo] PHP Notice:  Undefined variable: conn in /home/dropexpr/dashboard.dropexpress.com.br/bling/functions.php on line 253
+[13-Jan-2022 13:42:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/dropexpr/dashboard.dropexpress.com.br/bling/functions.php:253
+Stack trace:
+#0 /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php(33): getExternalId(338)
+#1 {main}
+  thrown in /home/dropexpr/dashboard.dropexpress.com.br/bling/functions.php on line 253
+[13-Jan-2022 13:43:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Classes\Braip\Braip' not found in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 35
+[13-Jan-2022 13:45:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Classes\Braip\Braip' not found in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 35
+[13-Jan-2022 13:49:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Classes\Braip' not found in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 35
+[13-Jan-2022 13:50:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Classes\Braip' not found in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 35
+[13-Jan-2022 13:50:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Braip' not found in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 35
+[13-Jan-2022 13:56:37 America/Sao_Paulo] PHP Warning:  Use of undefined constant CORREIOS - assumed 'CORREIOS' (this will throw an Error in a future version of PHP) in /home/dropexpr/dashboard.dropexpress.com.br/bling/classes/braip/braip.php on line 24
+[13-Jan-2022 13:59:46 America/Sao_Paulo] PHP Warning:  Use of undefined constant CORREIOS - assumed 'CORREIOS' (this will throw an Error in a future version of PHP) in /home/dropexpr/dashboard.dropexpress.com.br/bling/classes/braip/braip.php on line 24
+[13-Jan-2022 13:59:46 America/Sao_Paulo] PHP Notice:  Trying to get property 'success' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 43
+[13-Jan-2022 13:59:46 America/Sao_Paulo] PHP Notice:  Trying to get property 'fields' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 49
+[13-Jan-2022 14:01:22 America/Sao_Paulo] PHP Warning:  Use of undefined constant CORREIOS - assumed 'CORREIOS' (this will throw an Error in a future version of PHP) in /home/dropexpr/dashboard.dropexpress.com.br/bling/classes/braip/braip.php on line 24
+[13-Jan-2022 14:01:22 America/Sao_Paulo] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/dropexpr/dashboard.dropexpress.com.br/bling/classes/braip/braip.php on line 67
+[13-Jan-2022 14:01:22 America/Sao_Paulo] PHP Notice:  Trying to get property 'success' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 43
+[13-Jan-2022 14:01:22 America/Sao_Paulo] PHP Notice:  Trying to get property 'fields' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 49
+[13-Jan-2022 14:01:55 America/Sao_Paulo] PHP Warning:  Use of undefined constant CORREIOS - assumed 'CORREIOS' (this will throw an Error in a future version of PHP) in /home/dropexpr/dashboard.dropexpress.com.br/bling/classes/braip/braip.php on line 24
+[13-Jan-2022 14:01:56 America/Sao_Paulo] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/dropexpr/dashboard.dropexpress.com.br/bling/classes/braip/braip.php on line 67
+[13-Jan-2022 14:01:56 America/Sao_Paulo] PHP Notice:  Trying to get property 'success' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 43
+[13-Jan-2022 14:01:56 America/Sao_Paulo] PHP Notice:  Trying to get property 'fields' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 49
+[13-Jan-2022 14:02:17 America/Sao_Paulo] PHP Warning:  Use of undefined constant CORREIOS - assumed 'CORREIOS' (this will throw an Error in a future version of PHP) in /home/dropexpr/dashboard.dropexpress.com.br/bling/classes/braip/braip.php on line 24
+[13-Jan-2022 14:02:17 America/Sao_Paulo] PHP Notice:  Trying to get property 'success' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 43
+[13-Jan-2022 14:02:17 America/Sao_Paulo] PHP Notice:  Trying to get property 'fields' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 49
+[13-Jan-2022 14:07:59 America/Sao_Paulo] PHP Warning:  Use of undefined constant CORREIOS - assumed 'CORREIOS' (this will throw an Error in a future version of PHP) in /home/dropexpr/dashboard.dropexpress.com.br/bling/classes/braip/braip.php on line 24
+[13-Jan-2022 14:08:04 America/Sao_Paulo] PHP Notice:  Trying to get property 'success' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 43
+[13-Jan-2022 14:08:04 America/Sao_Paulo] PHP Notice:  Trying to get property 'fields' of non-object in /home/dropexpr/dashboard.dropexpress.com.br/bling/webhook.php on line 49
+[13-Jan-2022 14:09:04 America/Sao_Paulo] PHP Warning:  Use of undefined constant CORREIOS - assumed 'CORREIOS' (this will throw an Error in a future version of PHP) in /home/dropexpr/dashboard.dropexpress.com.br/bling/classes/braip/braip.php on line 24
+[13-Jan-2022 14:09:42 America/Sao_Paulo] PHP Warning:  Use of undefined constant CORREIOS - assumed 'CORREIOS' (this will throw an Error in a future version of PHP) in /home/dropexpr/dashboard.dropexpress.com.br/bling/classes/braip/braip.php on line 24
+[13-Jan-2022 14:10:10 America/Sao_Paulo] PHP Warning:  Use of undefined constant CORREIOS - assumed 'CORREIOS' (this will throw an Error in a future version of PHP) in /home/dropexpr/dashboard.dropexpress.com.br/bling/classes/braip/braip.php on line 24

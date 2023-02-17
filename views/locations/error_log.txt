@@ -1,0 +1,112 @@
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:15 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\views\locations\inventories.php:335
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:26 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\views\locations\inventories.php:335
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:53:42 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\views\locations\inventories.php:335
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Undefined variable $inventory_last_ship in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:54:01 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\views\locations\inventories.php:335
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:56:49 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\views\locations\inventories.php:335
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\views\locations\inventories.php on line 335
+[13-May-2022 15:57:25 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\views\locations\inventories.php:473
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\views\locations\inventories.php on line 473
+[13-May-2022 15:57:44 America/Sao_Paulo] PHP Warning:  Undefined variable $users_integrations in C:\xampp\htdocs\includes\layout\default\default-footer-scripts.php on line 137
+[13-May-2022 15:58:12 America/Sao_Paulo] PHP Warning:  Undefined array key "operation_name" in C:\xampp\htdocs\views\locations\inventories.php on line 408
+[13-May-2022 15:58:12 America/Sao_Paulo] PHP Warning:  Undefined variable $users_integrations in C:\xampp\htdocs\includes\layout\default\default-footer-scripts.php on line 137
+[13-May-2022 15:58:56 America/Sao_Paulo] PHP Warning:  Undefined variable $users_integrations in C:\xampp\htdocs\includes\layout\default\default-footer-scripts.php on line 137
+[13-May-2022 15:59:21 America/Sao_Paulo] PHP Warning:  Undefined variable $users_integrations in C:\xampp\htdocs\includes\layout\default\default-footer-scripts.php on line 137
+[13-May-2022 15:59:28 America/Sao_Paulo] PHP Warning:  Undefined variable $users_integrations in C:\xampp\htdocs\includes\layout\default\default-footer-scripts.php on line 137
+[13-May-2022 16:05:07 America/Sao_Paulo] PHP Warning:  Undefined variable $users_integrations in C:\xampp\htdocs\includes\layout\default\default-footer-scripts.php on line 137
+[13-May-2022 16:05:47 America/Sao_Paulo] PHP Warning:  Undefined variable $tab_list_iten in C:\xampp\htdocs\views\locations\my-operation.php on line 64
+[13-May-2022 16:05:47 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\my-operation.php on line 64
+[13-May-2022 16:05:47 America/Sao_Paulo] PHP Warning:  Undefined variable $users_integrations in C:\xampp\htdocs\includes\layout\default\default-footer-scripts.php on line 137
+[13-May-2022 16:08:25 America/Sao_Paulo] PHP Warning:  Undefined variable $tab_list_iten in C:\xampp\htdocs\views\locations\my-operation.php on line 88
+[13-May-2022 16:08:25 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\views\locations\my-operation.php on line 88
+[13-May-2022 16:08:25 America/Sao_Paulo] PHP Warning:  Undefined variable $users_integrations in C:\xampp\htdocs\includes\layout\default\default-footer-scripts.php on line 137
+[13-May-2022 16:08:31 America/Sao_Paulo] PHP Warning:  Undefined variable $users_integrations in C:\xampp\htdocs\includes\layout\default\default-footer-scripts.php on line 137

@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/logzzcom/public_html/app.logzz.com.br 
+    - /bin/cp -R * $DEPLOYPATH
+    - export PATH=/home/logzzcom/bin/:$PATH
