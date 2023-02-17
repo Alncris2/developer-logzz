@@ -1,11 +1,16 @@
+# Arquivos de configuração do server 
 **/includes/config.php 
+firebase-credentials.json
 
+# Arquivos que desnecessarios o commit
 .well-known/*
 uploads/*
 images/*
 
-# NÃO ENVIAR ARQUIVO LOG
+# Arquivos de log e zip
 *.log
 *.zip
+*.txt
+
 
 

@@ -239,6 +239,10 @@ if ($_POST['action'] == 'pedido-completo'){
                 }
             }
 
+            require "../includes/classes/SendNotification.php"; 
+            $bearerToken = getBearerTokenFromGoogleFirebase()->access_token;
+
+
 			/**
 			 * 
 			 * 
@@ -323,6 +327,38 @@ if ($_POST['action'] == 'pedido-completo'){
                 $set_commission_released = $conn->prepare('UPDATE orders SET order_anticipation_released = 1, order_refunded = 0 WHERE order_id = :order_id');
                 $set_commission_released->execute(array('order_id' => $order_afi_id));
 
+                $get_shooting_notification = $conn->prepare("SELECT shooting_title, shooting_message  FROM shooting_notification sn WHERE shooting_action = 3 AND shooting_status = 1");
+                $get_shooting_notification->execute();
+                    
+                if($notification_body = $get_shooting_notification->fetch()){
+                    $get_user_token_google_pro = $conn->prepare("SELECT full_name, user_token_google  FROM users u WHERE user__id = :user__id AND user_token_google IS NOT NULL");
+                    $get_user_token_google_pro->execute(array("user__id" => $user__id));
+                    if($user_info_producer_pro = $get_user_token_google_pro->fetch()){
+                        $user_token_google_pro = $user_info_producer_pro['user_token_google'];
+
+                        $notification_title = $notification_body['shooting_title'];
+                        $notification_text = $notification_body['shooting_message'];
+                        if(strpos($notification_body['shooting_message'], '{{first_name}}')){
+                            $notification_text = str_replace('{{first_name}}', $first_name, $notification_text);
+                        }
+                        if(strpos($notification_body['shooting_message'], '{{full_name}}')){
+                            $notification_text = str_replace('{{full_name}}', $user_info_producer_pro['full_name'], $notification_text);
+                        }
+                        if(strpos($notification_body['shooting_message'], '{{liquid_value}}')){
+                            $notification_text = str_replace('{{liquid_value}}', number_format($order_liquid_value, 2, ',', '.'), $notification_text);
+                        }
+
+                        sendPushNotification($bearerToken, (object) [
+                            'title' => $notification_title,
+                            'body' => $notification_text,
+                            'targetFcmToken' => $user_token_google_pro
+                        ]);
+
+                        $set_new_notification = $conn->prepare('INSERT INTO `notifications` (`user__id`, `notification_icon`, notification_title, `notification_context`, `notification_link`) VALUES (:user__id, "fa fa-dollar-sign", :notification_title, :notification_context, :notification_link )');
+                        $set_new_notification->execute(array('user__id' => $user__id, 'notification_title' => $notification_title, 'notification_context' => $notification_text, 'notification_link' => SERVER_URI . '/pedidos/' ));
+                    }
+                }
+                                
             }
 
             # Cálculo dos valores as comissões
@@ -370,6 +406,38 @@ if ($_POST['action'] == 'pedido-completo'){
                 'transaction_code' => $transaction_code
             )); 
 
+            $get_shooting_notification = $conn->prepare("SELECT shooting_title, shooting_message  FROM shooting_notification sn WHERE shooting_action = 3 AND shooting_status = 1");
+            $get_shooting_notification->execute();
+                    
+            if($notification_body = $get_shooting_notification->fetch()){
+                $get_user_token_google_pro = $conn->prepare("SELECT full_name, user_token_google  FROM users u WHERE user__id = :user__id AND user_token_google IS NOT NULL");
+                $get_user_token_google_pro->execute(array("user__id" => $user__id));
+                if($user_info_producer_pro = $get_user_token_google_pro->fetch()){
+                    $user_token_google_pro = $user_info_producer_pro['user_token_google'];
+
+                    $notification_title = $notification_body['shooting_title'];
+                    $notification_text = $notification_body['shooting_message'];
+                    if(strpos($notification_body['shooting_message'], '{{first_name}}')){
+                        $notification_text = str_replace('{{first_name}}', $first_name, $notification_text);
+                    }
+                    if(strpos($notification_body['shooting_message'], '{{full_name}}')){
+                        $notification_text = str_replace('{{full_name}}', $user_info_producer_pro['full_name'], $notification_text);
+                    }
+                    if(strpos($notification_body['shooting_message'], '{{liquid_value}}')){
+                        $notification_text = str_replace('{{liquid_value}}', number_format($order_liquid_value, 2, ',', '.'), $notification_text);
+                    }
+
+                    sendPushNotification($bearerToken, (object) [
+                        'title' => $notification_title,
+                        'body' => $notification_text,
+                        'targetFcmToken' => $user_token_google_pro
+                    ]);
+
+                    $set_new_notification = $conn->prepare('INSERT INTO `notifications` (`user__id`, `notification_icon`, notification_title, `notification_context`, `notification_link`) VALUES (:user__id, "fa fa-dollar-sign", :notification_title, :notification_context, :notification_link )');
+                    $set_new_notification->execute(array('user__id' => $user__id, 'notification_title' => $notification_title, 'notification_context' => $notification_text, 'notification_link' => SERVER_URI . '/pedidos/' ));
+                }
+            }
+
 			# Marca a comissão como "antecipaçao liberada";
 			$set_commission_released = $conn->prepare('UPDATE orders SET order_anticipation_released = 1, order_refunded = 0 WHERE order_id = :order_id');
 			$set_commission_released->execute(array('order_id' => $order_id));
@@ -399,44 +467,3 @@ else {
 }
 
 ?>
-
-
-<!-- SELECT 
-	u.user__id AS user__id, 
-    (SELECT sum(value_liquid) AS value FROM transactions ab WHERE ab.user_id = u.user__id and date_end < now()) AS commission_balance, 
-    (SELECT sum(value_liquid) AS value FROM transactions bb WHERE bb.user_id = u.user__id and date_end > now()) AS anticipation_balance 
-FROM users u
-GROUP BY u.user__id  
-ORDER BY `anticipation_balance`  DESC -->
-
-<!-- 
-
-SELECT dt.* FROM 
-(
-  (
-    -- getting the closest value just above 450
-    SELECT *, 1 as priority
-    FROM amounts_available_for_anticipation 
-    WHERE order_liquid_value >= 1000   -- notice >=
-      AND user__id = 10
-    ORDER BY order_liquid_value ASC   -- ASC LIMIT 1 to get value just above
-    LIMIT 1
-  )
-
-  UNION 
-
-  (
-    -- getting the closest value just below 450
-    SELECT *, 2
-    FROM amounts_available_for_anticipation 
-    WHERE order_liquid_value <= 1000    -- notice <=
-      AND user__id = 10
-    ORDER BY order_liquid_value DESC   -- DESC LIMIT 1 to get value just below
-    LIMIT 1
-  ) 
-) dt 
-
--- first priority to get the closest value above, then only below
-ORDER BY dt.priority ASC
-
- -->

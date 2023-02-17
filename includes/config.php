@@ -1,10 +1,12 @@
 <?php     
+    error_reporting(-1);            
+    ini_set('display_errors', 1); 
 
     /** Server URL */
-    DEFINE ('SERVER_URI', "https://implements.logzz.com.br");
+    DEFINE ('SERVER_URI', "http://localhost/developer-logzz");
 
     /** Secure Checkout URL */
-    DEFINE ('CHECKOUT_URI', "https://implements.logzz.com.br/seguro.dropexpress/");
+    DEFINE ('CHECKOUT_URI', "http://localhost/developer-logzz/seguro.dropexpress/");
 
     /** Pagar.me API Key */ 
     #DEFINE ('PGME_API_KEY', 'ak_live_0Yj4rdq83QiAgGw2PLtwCulIwBpRbK'); 
@@ -17,13 +19,13 @@
     date_default_timezone_set('America/Sao_Paulo');
 
     /** The name of the database */
-    DEFINE ('DB_NAME', 'logzzcom_implements' );
+    DEFINE ('DB_NAME', 'developer_logzz' );
 
     /** MySQL database username */
-    DEFINE ( 'DB_USER', 'logzzcom_implements');
+    DEFINE ( 'DB_USER', 'root');
 
     /** MySQL database password */
-    DEFINE ( 'DB_PASSWORD', 'Tq0;$yonjE+&');
+    DEFINE ( 'DB_PASSWORD', '');
 
     /** MySQL hostname */
     DEFINE ('DB_HOST', 'localhost');

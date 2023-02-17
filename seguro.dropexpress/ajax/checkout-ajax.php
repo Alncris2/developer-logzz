@@ -439,7 +439,8 @@ if ($_POST['action'] == "done-order") {
 
 
 
-
+    require "../../includes/classes/SendNotification.php"; 
+    $bearerToken = getBearerTokenFromGoogleFirebase()->access_token;
 
 
 
@@ -495,6 +496,38 @@ if ($_POST['action'] == "done-order") {
             $add_operation_order->execute(array("operation_id" => $local_operation["operation_id"], "order_id" => $last_id));
         }
 
+        $get_shooting_notification = $conn->prepare("SELECT shooting_title, shooting_message  FROM shooting_notification sn WHERE shooting_action = 3 AND shooting_status = 1");
+        $get_shooting_notification->execute();
+            
+        if($notification_body = $get_shooting_notification->fetch()){
+            $get_user_token_google_pro = $conn->prepare("SELECT full_name, user_token_google  FROM users u WHERE user__id = :user__id AND user_token_google IS NOT NULL");
+            $get_user_token_google_pro->execute(array("user__id" => $user__id));
+            if($user_info_producer_pro = $get_user_token_google_pro->fetch()){
+                $user_token_google_pro = $user_info_producer_pro['user_token_google'];
+
+                $notification_title = $notification_body['shooting_title'];
+                $notification_text = $notification_body['shooting_message'];
+                if(strpos($notification_body['shooting_message'], '{{first_name}}')){
+                    $notification_text = str_replace('{{first_name}}', $first_name, $notification_text);
+                }
+                if(strpos($notification_body['shooting_message'], '{{full_name}}')){
+                    $notification_text = str_replace('{{full_name}}', $user_info_producer_pro['full_name'], $notification_text);
+                }
+                if(strpos($notification_body['shooting_message'], '{{liquid_value}}')){
+                    $notification_text = str_replace('{{liquid_value}}', number_format($order_liquid_value, 2, ',', '.'), $notification_text);
+                }
+
+                sendPushNotification($bearerToken, (object) [
+                    'title' => $notification_title,
+                    'body' => $notification_text,
+                    'targetFcmToken' => $user_token_google_pro
+                ]);
+
+                $set_new_notification = $conn->prepare('INSERT INTO `notifications` (`user__id`, `notification_icon`, notification_title, `notification_context`, `notification_link`) VALUES (:user__id, "fa fa-dollar-sign", :notification_title, :notification_context, :notification_link )');
+                $set_new_notification->execute(array('user__id' => $member_user__id, 'notification_title' => $notification_title, 'notification_context' => $notification_text, 'notification_link' => SERVER_URI . '/pedidos/' ));
+            }
+        }
+
         if ($has_member == true) {
             $stmt_mirror->execute(array('order_id' => $order_id, 'user__id' => $member_user__id, 'sale_id' => $sale_id, 'product_id' => $product_id, 'product_name' => $product_name, 'order_date' => $order_delivery_date, 'order_deadline' => $order_deadline, 'order_status' => $order_status, 'order_delivery_date' => $order_delivery_date, 'client_name' => $name, 'client_document' => $documento, 'client_address' => $address, 'client_number' => $whats, 'client_email' => $email, 'order_delivery_time' => $order_delivery_date, 'order_number' => $member_order_number, 'delivery_period' => $delivery_period, 'use_coupon' => $use_coupon, 'order_final_price' => $order_final_price, 'order_liquid_value' => $member_comission, 'order_commission_date' => $order_commission_date));
 
@@ -513,6 +546,38 @@ if ($_POST['action'] == "done-order") {
             if ($local_operation = $get_local_operation->fetch()) {
                 $add_operation_order = $conn->prepare("INSERT INTO local_operations_orders(operation_id, order_id) VALUES (:operation_id, :order_id)");
                 $add_operation_order->execute(array("operation_id" => $local_operation["operation_id"], "order_id" => $get_last_order->fetch()['order_id']));
+            }
+
+            $get_shooting_notification = $conn->prepare("SELECT shooting_title, shooting_message  FROM shooting_notification sn WHERE shooting_action = 3 AND shooting_status = 1");
+            $get_shooting_notification->execute();
+                
+            if($notification_body = $get_shooting_notification->fetch()){
+                $get_user_token_google = $conn->prepare("SELECT full_name, user_token_google  FROM users u WHERE user__id = :user__id AND user_token_google IS NOT NULL");
+                $get_user_token_google->execute(array("user__id" => $member_user__id));
+                if($user_info = $get_user_token_google->fetch()){
+                    $user_token_google = $user_info['user_token_google'];
+
+                    $notification_title = $notification_body['shooting_title'];
+                    $notification_text = $notification_body['shooting_message'];
+                    if(strpos($notification_body['shooting_message'], '{{first_name}}')){
+                        $notification_text = str_replace('{{first_name}}', $first_name, $notification_text);
+                    }
+                    if(strpos($notification_body['shooting_message'], '{{full_name}}')){
+                        $notification_text = str_replace('{{full_name}}', $user_info_producer_pro['full_name'], $notification_text);
+                    }
+                    if(strpos($notification_body['shooting_message'], '{{liquid_value}}')){
+                        $notification_text = str_replace('{{liquid_value}}', number_format($member_comission, 2, ',', '.'), $notification_text);
+                    }
+
+                    sendPushNotification($bearerToken, (object) [
+                        'title' => $notification_title,
+                        'body' => $notification_text,
+                        'targetFcmToken' => $user_token_google
+                    ]);
+
+                    $set_new_notification = $conn->prepare('INSERT INTO `notifications` (`user__id`, `notification_icon`, notification_title, `notification_context`, `notification_link`) VALUES (:user__id, "fa fa-dollar-sign", :notification_title, :notification_context, :notification_link )');
+                    $set_new_notification->execute(array('user__id' => $member_user__id, 'notification_title' => $notification_title, 'notification_context' => $notification_text, 'notification_link' => SERVER_URI . '/pedidos/' ));
+                }
             }
         }
 
